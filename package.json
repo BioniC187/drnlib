@@ -1,13 +1,7 @@
 {
-  "name": "drnlib",
-  "version": "0.0.1",
   "description": "drn mono repo",
-  "main": "index.js",
-  "workspaces": [
-    "./ui/*",
-    "./theme/*",
-    "./rntestapp/*"
-  ],
+  "private": true,
+  "workspaces": ["packages/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
